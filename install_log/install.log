@@ -1,0 +1,113 @@
+Checking system info
+####################
+      Model Name: MacBook Air
+      Model Identifier: MacBookAir10,1
+      Model Number: MGN63LL/A
+      Chip: Apple M1
+      Total Number of Cores: 8 (4 performance and 4 efficiency)
+      Memory: 8 GB
+      System Firmware Version: 10151.41.12
+      OS Loader Version: 10151.41.12
+      Serial Number (system): C17F51UPQ6L4
+      Hardware UUID: 9FBE36B6-5DB2-558F-8C32-9BBEE7D5E1E8
+      Provisioning UDID: 00008103-000970623C9A001E
+      Activation Lock Status: Enabled
+####################
+Client:
+ Cloud integration: v1.0.29
+ Version:           20.10.20
+ API version:       1.41
+ Go version:        go1.18.7
+ Git commit:        9fdeb9c
+ Built:             Tue Oct 18 18:20:35 2022
+ OS/Arch:           darwin/arm64
+ Context:           desktop-linux
+ Experimental:      true
+
+Server: Docker Desktop 4.13.0 (89412)
+ Engine:
+  Version:          20.10.20
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.18.7
+  Git commit:       03df974
+  Built:            Tue Oct 18 18:18:16 2022
+  OS/Arch:          linux/arm64
+  Experimental:     false
+ containerd:
+  Version:          1.6.8
+  GitCommit:        9cd3357b7fd7218e4aec3eae239db1f68a5a6ec6
+ runc:
+  Version:          1.1.4
+  GitCommit:        v1.1.4-0-g5fd4c4d
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+\nThis installation script will download the latest image and create a container that will automatically start
+
+If, for testing purposes, you intend to analyze Git clones stored on your machine:
+- copy them to path: /Users/abhishekvenkata/codescene_local_repos, which will be created by CodeScene after installation is complete.
+or
+- please provide the absolute path to the directory that contains your projects clone.
+(press 'Enter' when done): Host path /Users/abhishekvenkata/codescene_local_repos will be mounted on docker path: /codescene/local_clones
+latest: Pulling from codescene/codescene
+6020b48a94da: Pulling fs layer
+c6c658ef6eb2: Pulling fs layer
+c8a392bc37b7: Pulling fs layer
+7a99899bb551: Pulling fs layer
+3af1cc3ba8ea: Pulling fs layer
+676b21899bd9: Pulling fs layer
+18ebe3c1e1fd: Pulling fs layer
+7d63880262b4: Pulling fs layer
+9661c94dfe30: Pulling fs layer
+81780a8730c1: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+df969e49b7be: Pulling fs layer
+18ebe3c1e1fd: Waiting
+7d63880262b4: Waiting
+9661c94dfe30: Waiting
+7a99899bb551: Waiting
+3af1cc3ba8ea: Waiting
+81780a8730c1: Waiting
+676b21899bd9: Waiting
+4f4fb700ef54: Waiting
+df969e49b7be: Waiting
+c6c658ef6eb2: Verifying Checksum
+c6c658ef6eb2: Download complete
+c8a392bc37b7: Verifying Checksum
+c8a392bc37b7: Download complete
+3af1cc3ba8ea: Verifying Checksum
+3af1cc3ba8ea: Download complete
+676b21899bd9: Verifying Checksum
+676b21899bd9: Download complete
+18ebe3c1e1fd: Verifying Checksum
+18ebe3c1e1fd: Download complete
+7d63880262b4: Download complete
+9661c94dfe30: Verifying Checksum
+9661c94dfe30: Download complete
+81780a8730c1: Verifying Checksum
+81780a8730c1: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+7a99899bb551: Verifying Checksum
+7a99899bb551: Download complete
+df969e49b7be: Download complete
+6020b48a94da: Download complete
+6020b48a94da: Pull complete
+c6c658ef6eb2: Pull complete
+c8a392bc37b7: Pull complete
+7a99899bb551: Pull complete
+3af1cc3ba8ea: Pull complete
+676b21899bd9: Pull complete
+18ebe3c1e1fd: Pull complete
+7d63880262b4: Pull complete
+9661c94dfe30: Pull complete
+81780a8730c1: Pull complete
+4f4fb700ef54: Pull complete
+df969e49b7be: Pull complete
+Digest: sha256:345fa15118982bc3042c5229d1d965efce1e0ae5938964b49572191123c97ab5
+Status: Downloaded newer image for codescene/codescene:latest
+f40c287fd755920cdc999d7fe2714eef6b9cb43dca09b417d0dbd4c2030f0331
+Starting CodeScene. Please wait, as this can take up to one minute....
+Opening browser ....
+Thank you for installing CodeScene!
+(Press 'enter' to finish)
